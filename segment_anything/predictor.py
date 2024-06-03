@@ -256,7 +256,7 @@ class SamPredictor:
         return self.features
 
     @property
-    def device(self) -> torch.device:
+    def device(self) -> 0:
         return self.model.device
 
     def reset_image(self) -> None:
